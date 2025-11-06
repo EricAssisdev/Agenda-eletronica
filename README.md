@@ -127,7 +127,35 @@ Registro (para novos usuários)
 
 ---
 
-## 🔧 Instalação e Configuração
+## 🚀 Deploy no Railway
+
+Este projeto está pronto para ser hospedado no Railway! 
+
+### � Documentação Completa de Deploy
+
+| Documento | Descrição | Quando Usar |
+|-----------|-----------|-------------|
+| **[📘 DEPLOY_RAILWAY.md](DEPLOY_RAILWAY.md)** | Guia completo e detalhado | Primeiro deploy ou referência completa |
+| **[✅ CHECKLIST_DEPLOY.md](CHECKLIST_DEPLOY.md)** | Checklist passo a passo | Durante o deploy para não esquecer nada |
+| **[🏗️ ARQUITETURA.md](ARQUITETURA.md)** | Diagramas e fluxos | Entender como tudo funciona |
+| **[🔧 TROUBLESHOOTING.md](TROUBLESHOOTING.md)** | Solução de problemas | Quando algo der errado |
+| **[🛠️ COMANDOS_UTEIS.md](COMANDOS_UTEIS.md)** | Comandos úteis | Referência rápida |
+| **[📚 INDICE.md](INDICE.md)** | Índice de toda documentação | Navegar pela documentação |
+
+### Deploy Rápido (Resumo)
+
+1. Faça push do código para o GitHub
+2. Conecte o repositório no [Railway](https://railway.app/)
+3. Adicione PostgreSQL ao projeto
+4. Configure as variáveis de ambiente
+5. Execute as migrações
+6. Pronto! Sua aplicação estará online 🎉
+
+**👉 [Comece aqui: Guia Completo de Deploy](DEPLOY_RAILWAY.md)**
+
+---
+
+## �🔧 Instalação e Configuração Local
 
 ### Pré-requisitos
 - Python 3.8 ou superior
@@ -161,7 +189,7 @@ source venv/bin/activate
 
 4. **Instale as dependências**
 ```bash
-pip install django
+pip install -r requirements.txt
 ```
 
 5. **Execute as migrações**
